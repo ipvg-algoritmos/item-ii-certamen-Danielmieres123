@@ -15,7 +15,5 @@
 def mostrar_tabla(n):
     for i in range(1, 11):
         print(f"{n} x {i} = {n * i}")
-
-# Solicita al usuario un número
 numero = int(input("Ingresa un número para ver su tabla de multiplicar: "))
 mostrar_tabla(numero)
